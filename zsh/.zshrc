@@ -104,5 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export EDITOR='vim'
-export PATH=$PATH:/home/frolov/documents
+export PATH=$PATH:$HOME/documents
 #export DOCKER_PS='sudo docker ps -a -q'

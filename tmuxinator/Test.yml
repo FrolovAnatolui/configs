@@ -56,7 +56,7 @@ windows:
   - server: 
        layout: tmux split-window -h -p 50 \; split-window -v -p 50 \; select-pane -t 0
        panes:
-         - ssh frolov@138.201.4.119
+         - 
          - 
          - 
          - 
