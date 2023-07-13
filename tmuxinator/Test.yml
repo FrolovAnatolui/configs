@@ -67,3 +67,4 @@ windows:
         -
   - logs: echo "test"
   - totp: auto-amd_totp.sh
+  - documents: cd $HOME/documents
