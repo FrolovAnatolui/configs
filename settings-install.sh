@@ -1,4 +1,7 @@
 #!/bin/bash
+if [ -d "$HOME/.oh-my-zsh" ]; then
+    rm -rf "$HOME/.oh-my-zsh"
+fi
 
 command='sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"'
 
